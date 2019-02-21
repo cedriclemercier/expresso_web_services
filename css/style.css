@@ -39,7 +39,7 @@ font-family: 'Open Sans', sans-serif;
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
-    line-height: 70px;
+    line-height: 90px;
 }
 
 h4 {
@@ -61,6 +61,16 @@ h4:before {
     height: 2px;
     background: #425BB5;
     top: 9px;
+}
+
+.disply-table h4:before {
+    left: 40%;
+}
+
+@media (max-width:990px) {
+    .disply-table h4:before {
+        display:none;
+    }
 }
 
 
@@ -293,8 +303,25 @@ a.active {
 }
 
 .disply-table {
+    width:100%;
     display: table;
-    height: 100vh;
+    height: 83vh;
+    text-align: center;
+}
+
+
+@media  (min-width:1600px) {
+    .disply-table {
+        height: 100vh;
+    }
+}
+
+
+@media  (max-width:1600px) {
+    .disply-table h1 {
+        font-size: 50px;
+        line-height: 64px;
+    }
 }
 
 
@@ -325,7 +352,6 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #f3f3f3
 }
 
 .experience-row {
@@ -442,6 +468,10 @@ a.active {
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
+    
+    
+    
+    display:none;
 }
 
 
@@ -799,4 +829,41 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
+}
+
+
+
+/* service section
+==================================================*/
+
+#service {
+    padding: 100px 0;
+    background-color: #f3f3f3;
+}
+
+.faticon i {
+    display: block;
+    margin-bottom:30px;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:#425BB5;
+}
+
+.faticon {
+    text-align: center;
+}
+
+.faticon h4 {
+    margin-left:0;
+}
+
+.faticon h4:before {
+    display: none;
+}
+
+.bbox {
+    background-color: #fff;
+    padding:50px;
 }
