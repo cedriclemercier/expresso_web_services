@@ -313,7 +313,7 @@ a.active {
 .disply-table {
     width:100%;
     display: table;
-    height: 85vh;
+    height: 100vh;
     text-align: center;
 }
 
