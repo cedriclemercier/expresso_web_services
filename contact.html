@@ -40,7 +40,7 @@
     <header class="navbar-fixed-top">
         <nav>
             <ul>
-                <li><a href="index.html">About Us</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li><a href="services.html">Our Services</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -62,30 +62,56 @@
     </div>
     <!-- ./home -->
     
-    <!-- about -->
-    <div class="section" id="about">
+    
+    
+    
+    
+    <!-- contact -->
+    <div class="section" id="contact">
         <div class="container">
-            <div class="col-md-6" data-aos="fade-up">
-                <h4>01</h4>
-                <h1 class="size-50">Who <br /> We Are</h1>
+            <div class="col-md-12">
+                <h4>05</h4>
+                <h1 class="size-50">Contact  Us</h1>
                 <div class="h-50"></div>
-                <h3><strong>Giving the Average person a chance </strong></h3>
-                <div class="h-30"></div>
-                <p>At Venko developers  aim is to provide affordable solutions to your ideas. Our goal is deliver these services at the highest standard and level of customer satisfaction.</p>
-                <p>We’re thrilled you’ve decided to visit us - please browse our site to discover what we’re all about.</p>
-                <div class="h-50"></div> <img src="img/Signature.svg" width="230" alt="" hidden />
-                <div class="h-50"></div>
-                <a class="btn btn-contact wow fadeInLeft">Find out more!</a>
             </div>
-            <div class="col-md-6 about-img-div">
-                <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
-                <img src="img/about-img.jpg" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0"  />
+            <div class="col-md-4" data-aos="fade-up">
+
+                <h3>Phone Number</h3>
+                <p>+20 5555 569 42</p>
+                <h3> Mobile Number</h3>
+                <p>+20 5555 569 42</p>
+                <h3>Email</h3>
+                <p>mail@info.me</p>
+
+                <h3>Social Network</h3>
+
+                <ul class="social">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-8" data-aos="fade-up">
+                <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" />
+                    <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
+                    <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
+                    <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
+                    <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
+                    <div id="success">
+                        <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
+                    </div>
+                    <div id="error">
+                        <p> Something went wrong, try refreshing and submitting the form again. </p>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-    <!-- ./about -->
-    
-    
+    <!-- ./contact -->
 
     <!--DEMO01-->
     <div id="animatedModal" class="popup-modal">
