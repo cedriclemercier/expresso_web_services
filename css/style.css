@@ -370,6 +370,10 @@ a.a-red {
     text-align: center;
 }
 
+.disply-table img {
+    display: none;
+}
+
 
 @media  (min-width:1600px) {
     .disply-table {
