@@ -39,7 +39,7 @@ font-family: 'Open Sans', sans-serif;
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
-    line-height: 90px;
+    line-height: 100px;
 }
 
 h4 {
@@ -258,9 +258,6 @@ header {
     .navbar-toggle {
         display: none;
     }
-    .navbar-brand {
-    padding-top:33px;
-}
 }
 
 @media (max-width:768px) {
@@ -291,15 +288,17 @@ navbar-fixed-top .navbar-collapse {
     max-height: :1000px;
 }
 
-.navbar-brand img {
-    
+@media only screen and (max-width:1024px) {
+    .navbar-brand {
+        padding-top: 10px;
+    }
 }
 
 nav ul {
     display: inline-block;
     padding-left: 0;
     list-style: none;
-    padding: 20px;
+    /*padding: 20px;*/
     margin-bottom: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -358,6 +357,12 @@ a.a-red {
     height: 100vh;
 }
 
+@media only screen and (max-width: 1024px) {
+    #home {
+         background: url(../img/home-bg-3.jpg);
+    }
+}
+
 .table-cell {
     display: table-cell;
     vertical-align: middle;
@@ -382,7 +387,7 @@ a.a-red {
 }
 
 
-@media  (max-width:1600px) {
+@media  (min-width:1025px) {
     .disply-table h1 {
         font-size: 50px;
         line-height: 64px;
@@ -899,7 +904,7 @@ fieldset {
     h1 {
         font-family: 'Playfair Display', serif;
         font-size: 50px;
-        line-height: 50px;
+        line-height: 60px;
     }
     #home,
     .disply-table {
@@ -922,6 +927,47 @@ fieldset {
         font-size: 10px;
     }
 }
+
+
+
+
+
+@media (max-width: 1024px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
+
 
 
 
