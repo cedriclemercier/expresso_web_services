@@ -440,12 +440,76 @@ a.a-red {
 }
 
 .promotion-section {
-    text-align: center;
 }
 
 .promotion-img-div img {
     margin: 0 auto;
 }
+
+#promotion input[type="checkbox"] {
+    display: none;
+}
+
+.label-container {
+    padding:10px 0px;
+    position: relative;
+}
+
+.label-container strong {
+    
+}
+
+.checkmark {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background-color: #eee;
+    border-radius: 10%;
+}
+
+.check-container {
+    padding-left: 65px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check-container:hover .checkmark {
+    background-color: #ccc;
+}
+
+.check-container input:checked ~ .checkmark {
+    background-color:#2D2A32;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.check-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.check-container .checkmark:after {
+    left: 13px;
+    top: 7px;
+    width: 12px;
+    height: 20px;
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
 
 
 /* experience section
