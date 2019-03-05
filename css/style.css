@@ -101,6 +101,8 @@ body {
 }
 
 
+
+
 /* preloader
 ==================================================*/
 
@@ -455,8 +457,10 @@ a.a-red {
     position: relative;
 }
 
-.label-container strong {
-    
+.label-container i {
+    margin-left: 10px;
+    color:#9F9EA1;
+    cursor: pointer;
 }
 
 .checkmark {
@@ -1096,4 +1100,12 @@ fieldset {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
+}
+
+
+/* temporary fix for modal moving window to the right
+/* ========================================== */
+
+.modal-open {
+  padding-right: 0 !important;
 }
