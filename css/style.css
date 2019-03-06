@@ -476,6 +476,11 @@ a.a-red {
     cursor: pointer;
 }
 
+.promotion-submit {
+    overflow:auto;
+    text-align: center;
+}
+
 .checkmark {
     position: absolute;
     top: 25px;
