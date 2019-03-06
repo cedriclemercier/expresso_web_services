@@ -428,6 +428,12 @@ a.a-red {
     background-color: #2D2A32;
 }
 
+.btn-contact {
+    -webkit-transition: all 0.5s;
+    -moz-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+
 .btn-contact:hover {
     background-color: transparent;
     color: #2D2A32;
@@ -442,6 +448,7 @@ a.a-red {
 }
 
 .promotion-section {
+    min-height:600px;
 }
 
 .promotion-img-div img {
@@ -455,6 +462,12 @@ a.a-red {
 .label-container {
     padding:10px 0px;
     position: relative;
+}
+
+@media only screen and (min-width:1280px) {
+    .promotion-form {
+        padding-left:80px;
+    }
 }
 
 .promotion-form i {
@@ -513,6 +526,35 @@ a.a-red {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
+/* promotion tabs
+=============================================== */
+
+.promotion-tab {
+    display:none;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none; 
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #4CAF50;
+}
+
 
 
 
