@@ -439,6 +439,25 @@ a.a-red {
     color: #2D2A32;
 }
 
+.btn-previous, .btn-previous:focus, .btn-previous:active, .btn-previous:visited  {
+    border:2px solid #2D2A32;
+    padding: 20px 50px;
+    color: #2D2A32;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.btn-previous {
+    -webkit-transition: all 0.5s;
+    -moz-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+
+.btn-previous:hover {
+}
+
 
 /* promotion section
 ==================================================*/
@@ -479,6 +498,12 @@ a.a-red {
 .promotion-submit {
     overflow:auto;
     text-align: center;
+}
+
+.promotion-contact input  {
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 0;
 }
 
 .checkmark {
@@ -893,6 +918,12 @@ a.a-red {
     font-size: 1.3rem;
     line-height: 1.3rem;
     color: #000;
+}
+
+#contact-form select {
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 0;
 }
 
 #contact-form label.error {
