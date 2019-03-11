@@ -1156,6 +1156,49 @@ fieldset {
 
 
 
+/* Mobile Section
+/* ========================================== */
+
+
+#mobile {
+    padding: 100px 0;
+    background-color: #f3f3f3;
+}
+
+#mobile .bbox {
+    min-height: 500px;
+    margin-bottom:50px;
+}
+
+#mobile .bbox:hover {
+    transform: scale(1.1);
+}
+
+#mobile .bbox img {
+    border-radius: 50%;
+}
+
+#mobile .bbox ul {
+    padding-top:25px;
+    padding-left:0;
+}
+
+#mobile .bbox ul li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+@media only screen and (max-width:1440px) {
+    #mobile .bbox {
+        min-height: 540px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+}
+
+
 
 /* pop up code
 /* ========================================== */
