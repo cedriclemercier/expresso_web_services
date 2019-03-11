@@ -458,6 +458,11 @@ a.a-red {
 .btn-previous:hover {
 }
 
+@media only screen and (max-width:400px) {
+    .btn-previous, .btn-contact {
+        width:100%;
+    }
+}
 
 /* promotion section
 ==================================================*/
@@ -467,7 +472,10 @@ a.a-red {
 }
 
 .promotion-section {
-    min-height:600px;
+}
+
+.promotion-tab {
+    min-height:400px;
 }
 
 .promotion-img-div img {
@@ -498,6 +506,10 @@ a.a-red {
 .promotion-submit {
     overflow:auto;
     text-align: center;
+}
+
+.promotion-submit button {
+    margin:10px 0px;
 }
 
 .promotion-contact input  {
