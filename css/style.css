@@ -609,6 +609,7 @@ a.a-red {
 
 #experience {
     padding: 100px 0;
+    background-color: #f3f3f3;
 }
 
 .experience-row {
@@ -1139,6 +1140,10 @@ fieldset {
 #service {
     padding: 100px 0;
     background-color: #f3f3f3;
+}
+
+.promo {
+    padding: 50px 0;
 }
 
 .faticon i {
