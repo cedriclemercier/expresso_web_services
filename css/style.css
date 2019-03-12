@@ -1246,3 +1246,61 @@ fieldset {
 .modal-open {
   padding-right: 0 !important;
 }
+
+
+/* Pop up style
+/* ========================================== */
+
+
+
+/* Style for Venko specifically */
+
+.modal-style .modal-content {
+    border-radius: 2px;
+}
+
+.modal-style button.close {
+    position: absolute;
+    right:-10px;
+    top:-10px;
+    padding: 5px 12px;
+    color:#fff;
+    font-size:36px;
+    opacity: 1;
+    border-radius: 50%;
+    background-color: #2D2A32;
+}
+
+
+/* Style for Welcome PopUp */
+
+.modal-welcome {
+    text-align: center;
+}
+
+.modal-welcome .modal-header {
+    background-color: #2D2A32;
+    color:#fff;
+}
+
+.modal-welcome .modal-footer {
+    text-align: center;
+    padding:20px 0;
+}
+
+
+/* Style Generaly */
+
+.modal-header, .modal-footer {
+    border:0px;
+}
+
+.modal-header, modal-footer, .modal-body {
+    padding:20px 50px;
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width:600px;
+    }
+}

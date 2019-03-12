@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -22,9 +23,12 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+    
 
+    
+    
 <body>
-
+    
     <!-- Preloader -->
     <div id="preloader">
         <div id="status">
@@ -35,6 +39,31 @@
         </div>
     </div>
     <!-- ./Preloader -->
+    
+    
+    <!-- Pop up on Page Load -->
+    
+    <div id="welcomePopup" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-style">
+    <!-- Modal content-->
+    <div class="modal-content modal-welcome">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Welcome to Venko Developers!</h2>
+      </div>
+      <div class="modal-body">
+          <div class="h-30"></div>
+          <h3>Looking to start small and expand your Business?  Basic websites just for $1500</h3>
+      </div>
+      <div class="modal-footer">
+          <a class="btn btn-contact wow fadeInLeft" href="promotion">Find out more!</a>
+      </div>
+    </div>
+ 
+  </div>
+</div>
+
+    
     
     <!-- header -->
     <header class="navbar-fixed-top">
@@ -87,6 +116,7 @@
         </div>
     </div>
     <!-- ./home -->
+        
     
     <!-- about -->
     <div class="section" id="about">
@@ -139,17 +169,21 @@
             </div>
         </div>
     </div>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!--  plugins  -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        <!--  plugins  -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/jquery.form.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
 
-    <!--  main script  -->
-    <script src="js/custom.js"></script>
+        <!--  main script  -->
+        <script src="js/custom.js"></script>
+        <script>
+            $(function() {  $("#welcomePopup").modal('show'); });
+        </script>
+
 </body>
-
+    
 </html>

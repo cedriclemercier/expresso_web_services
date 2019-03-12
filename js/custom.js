@@ -10,6 +10,9 @@ $(window).load(function () {
     });
 })
 
+
+
+
 $(document).ready(function () {
     "use strict";
 
@@ -249,3 +252,8 @@ function fixStepIndicator(n) {
 }
 
 
+
+// Pop up open on home page load
+
+          
+                 
