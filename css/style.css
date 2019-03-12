@@ -464,6 +464,28 @@ a.a-red {
     }
 }
 
+.btn-blue {
+    -webkit-transition: all 0.5s;
+    -moz-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+
+.btn-blue, .btn-blue:focus, .btn-blue:active, .btn-blue:visited  {
+    border:2px solid #425BB5;
+    padding: 20px 50px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: #425BB5;
+}
+
+.btn-blue:hover {
+    background-color: transparent;
+    color: #425BB5;
+}
+
+
 /* promotion section
 ==================================================*/
 
@@ -1171,6 +1193,10 @@ fieldset {
 .bbox {
     background-color: #fff;
     padding:50px;
+}
+
+.grey-bg {
+    background-color: #f3f3f3;
 }
 
 
