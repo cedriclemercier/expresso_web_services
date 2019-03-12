@@ -576,6 +576,10 @@ a.a-red {
     display:none;
 }
 
+.promotion-tab textarea {
+    color:#ACACAC;
+}
+
 .step {
     height: 15px;
     width: 15px;
