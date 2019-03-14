@@ -73,6 +73,10 @@ h4:before {
     }
 }
 
+.section a {
+    color:#425BB5;
+}
+
 
 /* General
 ==================================================*/
@@ -363,6 +367,13 @@ a.a-red {
     #home {
          background: url(../img/home-bg-3.jpg);
     }
+}
+
+#home-2 {
+    background: url(../img/home-bg-4.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    height: 30vh;
 }
 
 .table-cell {
@@ -1335,3 +1346,37 @@ fieldset {
         width:600px;
     }
 }
+
+
+
+
+
+
+/* Portfolio Element Section
+/* ========================================== */
+
+.back-link {
+    padding:30px 0;
+}
+
+.back-link a, .back-link a:visited, .back-link a:active, .back-link a:focus {
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    -webkit-transition: all .5s;
+    -moz-transition:all .5s;
+    -o-transition:all .5s;
+}
+
+.back-link a:hover {
+    color: #DCDCDC;
+}
+
+
+
+
+
+
+
+
+
