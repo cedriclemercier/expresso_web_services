@@ -327,8 +327,8 @@ nav li a {
 }
 
 nav li.active a {
+    text-decoration: underline;
     color: #425BB5;
-    font-weight: 900;
 }
 
 .bg-nav {
