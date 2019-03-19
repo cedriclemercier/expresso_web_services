@@ -258,7 +258,7 @@ function fixStepIndicator(n) {
 
   $(function() {
     var current = location.pathname;
-    $('#navbar ul li a').each(function() {
+    $('header nav ul li a').each(function() {
         var $this = $(this); 
 
         // we check comparison between current page and attribute redirection.
