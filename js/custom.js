@@ -253,7 +253,27 @@ function fixStepIndicator(n) {
 
 
 
-// Pop up open on home page load
+// Add active class to header links
 
+// Get the container element
+var navContainer = document.getElementById("nav-links");
+
+// Get all buttons with class="btn" inside the container
+var navitems = btnContainer.getElementsByClassName("nav-item");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < navitems.length; i++) {
+  navitems[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+
+    // If there's no active class
+    if (current.length > 0) { 
+      current[0].className = current[0].className.replace(" active", "");
+    }
+
+    // Add the active class to the current/clicked button
+    this.className += " active";
+  });
+}
           
                  
