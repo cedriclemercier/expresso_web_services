@@ -256,16 +256,19 @@ function fixStepIndicator(n) {
 // Add active class to header links
         $(document).ready(function () {
 
-        $(function() {
-    var CurrentUrl= document.URL;
-    var CurrentUrlEnd = CurrentUrl.split('/').filter(Boolean).pop();
+  $(function() {
+    var current = location.pathname;
+    $('#navbar ul li a').each(function() {
+        var $this = $(this); 
 
-    $( "li a" ).each(function() {
-          var ThisUrl = $(this).attr('href');
-            var ThisUrlEnd = ThisUrl.split('/').filter(Boolean).pop();
-            if(ThisUrlEnd == CurrentUrlEnd)
-            $(this).addClass('active')
-        });
+        // we check comparison between current page and attribute redirection.
+        if ($this.attr('href') === current) {
+            $this.addClass('active');
+        }
     });
+});
+            
+            
+            
     });
                  
