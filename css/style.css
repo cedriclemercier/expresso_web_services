@@ -985,7 +985,6 @@ a.a-red {
 #contact-form select {
     height: 50px;
     margin-bottom: 10px;
-    border-radius: 0;
 }
 
 #contact-form label.error {
