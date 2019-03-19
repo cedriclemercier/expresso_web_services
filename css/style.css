@@ -444,7 +444,6 @@ a.a-red {
 .btn-contact, .btn-contact:focus, .btn-contact:active, .btn-contact:visited  {
     border:2px solid #2D2A32;
     padding: 20px 50px;
-    color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
@@ -1376,7 +1375,23 @@ fieldset {
 
 
 
+/* Home service section
+==================================================*/
 
+.home-service .bbox {
+    min-height: 300px;
+    margin-bottom: 50px;
+    cursor:pointer;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+     -webkit-transition: all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
+    
+}
+
+.home-service .bbox:hover {
+    transform: scale(1.1);
+}
 
 
 /* Portfolio Element Section
