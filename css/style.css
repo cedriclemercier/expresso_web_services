@@ -326,7 +326,7 @@ nav li a {
     -o-transition:all 1s;
 }
 
-navbar-nav .active {
+nav ul li.active {
     text-decoration: underline;
 }
 
