@@ -32,6 +32,16 @@
 </div>
 
 <html>
+    <script>
+    jQuery(function($) {
+     var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
+     $('ul a').each(function() {
+      if (this.href === path) {
+       $(this).addClass('active');
+      }
+     });
+    });
+    </script>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!--  plugins  -->
@@ -43,4 +53,5 @@
 
     <!--  main script  -->
     <script src="js/custom.js"></script>
+    
 </html>
