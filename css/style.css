@@ -326,6 +326,11 @@ nav li a {
     -o-transition:all 1s;
 }
 
+nav li:active a {
+    text-decoration: underline;
+    color: #425BB5;
+}
+
 .bg-nav {
     background: #fff;
     border-bottom: 1px solid #f3f3f3
@@ -375,6 +380,14 @@ a.a-red {
     background-position: bottom;
     height: 30vh;
 }
+
+#home-3 {
+    background: url(../img/home-bg-2.jpg);
+    background-size: cover;
+    background-position: 50% 70%;
+    height: 50vh;
+}
+
 
 .table-cell {
     display: table-cell;
