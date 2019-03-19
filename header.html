@@ -33,7 +33,9 @@
 
 <html>
     <script>
-    (function() {
+        
+        
+    $(function() {
     var current = location.pathname;
     $('ul li a').each(function() {
         var $this = $(this); 
@@ -43,7 +45,7 @@
             $this.addClass('active');
         }
     });
-})();
+});
     </script>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
