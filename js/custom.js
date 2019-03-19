@@ -254,21 +254,5 @@ function fixStepIndicator(n) {
 
 
 // Add active class to header links
-        $(document).ready(function () {
 
-  $(function() {
-    var current = location.pathname;
-    $('header nav ul li a').each(function() {
-        var $this = $(this); 
-
-        // we check comparison between current page and attribute redirection.
-        if ($this.attr('href') === current) {
-            $this.addClass('active');
-        }
-    });
-});
-            
-            
-            
-    });
                  
