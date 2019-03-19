@@ -3,14 +3,15 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $(function(){
+    $(function() {
     var current = location.pathname;
-    $('li a').each(function(){
-        var $this = $(this);
-        // if the current path is like this link, make it active
-        if($this.attr('href').indexOf(current) !== -1){
+    $('ul li a').each(function() {
+        var $this = $(this); 
+
+        // we check comparison between current page and attribute redirection.
+        if ($this.attr('href') === current) {
             $this.addClass('active');
         }
-    })
+    });
 });
 });
