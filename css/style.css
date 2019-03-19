@@ -327,6 +327,7 @@ nav li a {
 }
 
 nav li a:active {
+    text-decoration: underline;
     color: #425BB5;
 }
 
@@ -1216,6 +1217,9 @@ fieldset {
 .bbox {
     background-color: #fff;
     padding:50px;
+    -webkit-transition: all 0.5s;
+    -moz-transition:all 0.5s;
+    -o-transition:all 0.5s;
 }
 
 .grey-bg {
