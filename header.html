@@ -35,16 +35,17 @@
     <script>
         $(document).ready(function () {
 
-        $(function(){
-    var current = location.pathname;
-    $('ul li a').each(function(){
-        var $this = $(this);
-        // if the current path is like this link, make it active
-        if($this.attr('href').indexOf(current) !== -1){
-            $this.addClass('active');
-        }
-    })
-});
+        $(function() {
+    var CurrentUrl= document.URL;
+    var CurrentUrlEnd = CurrentUrl.split('/').filter(Boolean).pop();
+
+    $( "li a" ).each(function() {
+          var ThisUrl = $(this).attr('href');
+            var ThisUrlEnd = ThisUrl.split('/').filter(Boolean).pop();
+            if(ThisUrlEnd == CurrentUrlEnd)
+            $(this).addClass('active')
+        });
+    });
     });
     </script>
     <!-- jQuery -->
