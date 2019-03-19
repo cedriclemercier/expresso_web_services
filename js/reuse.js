@@ -1,8 +1,4 @@
 $(document).ready(function() {
-    $("#navheader").load("header.html");
-});
-
-$(document).ready(function() {
     $(function() {
     var current = location.pathname;
     $('ul li a').each(function() {
@@ -15,3 +11,8 @@ $(document).ready(function() {
     });
 });
 });
+
+$(document).ready(function() {
+    $("#navheader").load("header.html");
+});
+
