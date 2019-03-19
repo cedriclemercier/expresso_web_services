@@ -256,7 +256,7 @@ function fixStepIndicator(n) {
 // Add active class to header links
 
 // Get the container element
-var navContainer = document.getElementById("nav-links");
+var navContainer = document.getElementById("venko-navbar-collapse");
 
 // Get all buttons with class="btn" inside the container
 var navitems = navContainer.getElementsByClassName("nav-item");
