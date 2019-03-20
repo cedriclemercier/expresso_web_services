@@ -411,6 +411,14 @@ a.a-red {
     }
 }
 
+
+
+@media  (min-width:1900px) {
+    .disply-table {
+        height: 100vh;
+    }
+}
+
 /*
 @media  (min-width:1025px) {
     .disply-table h1 {
@@ -779,6 +787,7 @@ a.a-red {
 
 #projects {
     padding: 100px 0;
+    min-height: 800px;
 }
 
 .portfolio .categories-grid span {
@@ -1224,6 +1233,14 @@ fieldset {
     background-color: #f3f3f3;
 }
 
+.extra-services {
+    list-style: none;
+    padding:0px;
+}
+
+.extra-services h2 {
+    color: #425BB5;
+}
 
 
 
@@ -1268,6 +1285,10 @@ fieldset {
 }
 
 @media only screen and (max-width:1024px) {
+}
+
+.col-0 {
+    padding: 0;
 }
 
 
