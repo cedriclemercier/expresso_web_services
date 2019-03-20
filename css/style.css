@@ -965,6 +965,15 @@ a.a-red {
     line-height: 50px;
 }
 
+@media (max-width: 1024px) {
+    #projects iframe {
+        display: none;
+    }
+}
+
+
+
+
 
 /* contact
 ==================================================*/
