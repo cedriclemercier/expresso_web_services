@@ -155,7 +155,7 @@ $(document).ready(function () {
                            /* $(this).find('label').css('cursor', 'default');
                             $('#success').fadeIn();*/
                         });
-                         $('#contact-form').fadeOut();
+                         $('#contact-form').delay(1500).fadeOut();
                         $('.success-message').fadeIn();
                         /*
                         document.getElementById('contact-form').style.display = "none";
