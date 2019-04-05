@@ -155,12 +155,13 @@ $(document).ready(function () {
                             $(this).find('label').css('cursor', 'default');
                             $('#success').fadeIn();
                         });
-                        
+                         $('#contact-form').fadeOut();
+                        /*
                         document.getElementById('contact-form').style.display = "none";
                         
-//                        $('#contact-form').addClass('hide');
+                        $('#contact-form').addClass('hide');
                         $('.success-message').addClass('show');
-                        
+                        */
                     },
                     error: function () {
                         $('#contact-form').fadeTo("slow", 1, function () {

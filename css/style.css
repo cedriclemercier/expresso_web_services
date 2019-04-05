@@ -1157,7 +1157,7 @@ fieldset {
 
 .success-message {
     position:absolute;
-    opacity: 0;
+    display: none;
     color: #333333;
     font-size: 15px;
     width: 100%;
@@ -1180,8 +1180,6 @@ fieldset {
 }
 
 #contact-form {
-    opacity: 1;
-    
     -webkit-transition-delay: 1s; /* Safari */
     transition-delay: 1s;
     transition: opacity 750ms ease-in-out 1s;
