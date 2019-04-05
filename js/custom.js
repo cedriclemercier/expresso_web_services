@@ -156,7 +156,6 @@ $(document).ready(function () {
                             $('#success').fadeIn();*/
                         });
                          $('#contact-form').fadeOut();
-                        $('.success-message').fadeIn();
                         /*
                         document.getElementById('contact-form').style.display = "none";
                         
