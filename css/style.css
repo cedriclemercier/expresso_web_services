@@ -1173,7 +1173,6 @@ fieldset {
 
 .success-message h3 {
     line-height: initial;
-    display: none;
 }
 
 .success-message.show {
