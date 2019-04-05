@@ -156,7 +156,9 @@ $(document).ready(function () {
                             $('#success').fadeIn();
                         });
                         
-                        $('#contact-form').addClass('hide');
+                        document.getElementById('contact-form').style.display = "none";
+                        
+//                        $('#contact-form').addClass('hide');
                         $('.success-message').addClass('show');
                         
                     },
