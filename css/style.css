@@ -1153,6 +1153,22 @@ fieldset {
 }
 
 
+/* Contact success */
+
+.success-message {
+    color: #425BB5;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #425BB5;
+    margin-top: 10px;
+}
+
+
+
+
+
+
 /* Responsive media queries
 ==================================================*/
 
