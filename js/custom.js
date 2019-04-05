@@ -152,8 +152,8 @@ $(document).ready(function () {
                         $('#contact-form :input').attr('disabled', 'disabled');
                         $('#contact-form').fadeTo("slow", 1, function () {
                             $(this).find(':input').attr('disabled', 'disabled');
-/*                            $(this).find('label').css('cursor', 'default');
-                            $('#success').fadeIn();*/
+                            $(this).find('label').css('cursor', 'default');
+                            $('#success').fadeIn();
                         });
                          $('#contact-form').fadeOut();
                         /*
