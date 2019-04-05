@@ -516,6 +516,17 @@ line-height: 64px;
     color: #425BB5;
 }
 
+a-big {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #444;
+    font-size: 11px;
+    font-weight: bold;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
 
 /* promotion section
 ==================================================*/
@@ -1156,7 +1167,6 @@ fieldset {
 /* Contact success */
 
 .success-message {
-    position:absolute;
     color: #333333;
     font-size: 15px;
     width: 100%;
@@ -1166,8 +1176,8 @@ fieldset {
     margin-top: 10px;
     display: none;
     background-color:#fff;
-    
-    
+
+
     -webkit-transition-delay: 1s; /* Safari */
     transition: opacity 750ms ease-in-out 1s;
 }
