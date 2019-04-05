@@ -157,7 +157,7 @@ $(document).ready(function () {
                         });
                         
                         $('#contact-form').addClass('hide');
-                        $('#success-message').addClass('show');
+                        $('.success-message').addClass('show');
                         
                     },
                     error: function () {
