@@ -155,7 +155,9 @@ $(document).ready(function () {
                             $(this).find('label').css('cursor', 'default');
                             $('#success').fadeIn();
                         });
-                        document.getElementById('contact-form').style.display = "none";
+                        
+                        $('#contact-form').addClass('hide');
+                        $('#success-message').addClass('show');
                         
                     },
                     error: function () {
