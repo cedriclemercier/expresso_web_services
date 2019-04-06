@@ -104,8 +104,17 @@
         <!-- promotion -->
         <div class="section" id="promotion">
             <div class="container">
+                
+                <div class="success-message">
+                        <h3>Thank you for contacting us. <br />We will be in touch with you soon!</h3>
+                        
+                        <div class="h-30"></div>
+                        <p>In the meantime, you can check out the promotions we are offering.</p>
+                        <div class="h-30"></div>
+                        <a href="projects" class="btn btn-action">See our promotions</a>
+                    </div>
 
-                <form method="POST" id="promo-form" data-netlify="true">
+                <form method="POST" id="contact-form" name="promotion" data-netlify="true">
 
                     <div class="col-md-12 promotion-section promotion-img-div img" data-aos="fade-up">
 
@@ -310,12 +319,12 @@
 
                             <div class="col-md-12">
 
-                                <h2>Your Contact Details</h2>
+                                <h2>Additional details</h2>
                                 <h3>Let us know more about you!</h3>
                                 <div class="h-50"></div>
-                                <input placeholder="Name" oninput="this.className" class="form-control">
-                                <input placeholder="Email" oninput="this.className" class="form-control">
-                                <textarea name="Additionnal Comments" class="form-control" placeholder="Additional Comments..."></textarea>
+                                <input placeholder="Name" name="name" oninput="this.className" class="form-control">
+                                <input placeholder="Email" name="email" oninput="this.className" class="form-control">
+                                <textarea name="message" class="form-control" placeholder="Additional Comments..."></textarea>
 
                             </div>
 
@@ -343,10 +352,6 @@
         </div>
 
         <!-- ./promotion -->
-
-        <div class="section" id="footer">
-        </div>
-
 
 
         <!--DEMO01-->
