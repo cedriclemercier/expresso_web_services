@@ -73,9 +73,11 @@ h4:before {
     }
 }
 
+/*
 .section a {
     color:#425BB5;
 }
+*/
 
 
 /* General
@@ -514,17 +516,6 @@ line-height: 64px;
 .btn-blue:hover {
     background-color: transparent;
     color: #425BB5;
-}
-
-a-big {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #444;
-    font-size: 11px;
-    font-weight: bold;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
 }
 
 
@@ -1173,14 +1164,36 @@ fieldset {
     text-align: center;
     padding: 50px;
     border: 2px solid #d5d5d5;
+/*
     margin-top: 10px;
     display: none;
+*/
     background-color:#fff;
 
 
     -webkit-transition-delay: 1s; /* Safari */
     transition: opacity 750ms ease-in-out 1s;
 }
+
+.btn-action, .btn-action:focus, .btn-action:active, .btn-action:visited {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 11px;
+    background-color: #425BB5;
+    padding: 20px 30px;
+    font-weight: bold;
+    border-radius: 0px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.btn-action:hover {
+    color:#fff;
+    background-color: #314384;
+}
+
 
 .success-message h3 {
     line-height: initial;
