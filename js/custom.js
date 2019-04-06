@@ -219,7 +219,7 @@ function nextPrev(n) {
     
     // if you have reached the end of the form... :
     if (currentTab >= x.length) {
-        document.getElementById("promo-form").submit();
+        document.getElementsByClassName("promo-form").submit();
         return false;
     }
     
