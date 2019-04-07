@@ -180,7 +180,7 @@ $(document).ready(function () {
 
 
 // Code for sliding forms tabs
-
+/*
 
 var currentTab = 0;
 showTab(currentTab);
@@ -263,4 +263,4 @@ function fixStepIndicator(n) {
 }
 
 
-        
+        */
