@@ -104,62 +104,51 @@
         <!-- promotion -->
         <div class="section" id="promotion">
             <div class="container">
-                
-                <div class="success-message">
+                <div class="col-md-12">
+                    <h4>06</h4>
+                    <h1 class="size-50">Promotions</h1>
+
+                    <div class="success-message">
                         <h3>Thank you for contacting us. <br />We will be in touch with you soon!</h3>
-                        
+
                         <div class="h-30"></div>
                         <p>In the meantime, you can check out the promotions we are offering.</p>
                         <div class="h-30"></div>
-                        <a href="projects" class="btn btn-action">See our promotions</a>
+                        <a href="promotion" class="btn btn-action">See our promotions</a>
                     </div>
 
-                <form method="POST" id="contact-form" name="promotion" class="promo-form" data-netlify="true">
+                    <form class="contact-bg" id="promo-form" name="promotions" method="post" novalidate="novalidate" data-netlify="true">
 
-                    <div class="col-md-12 promotion-section promotion-img-div img" data-aos="fade-up">
+                        <div class="row promo-section">
 
-
-                        <div class="row promotion-tab">
-
-
-                            <!-- PROMOTION COL 1 BASICS -->
-
-                            <div class="col-md-12">
-                                <i>Hover the fields for more info.</i>
-                            </div>
 
                             <div class="col-md-4 promotion-form">
-
-
-
-                                <h2>Promotion </h2>
+                                <h2>Current promotions </h2>
 
                                 <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" checked="checked" name="Home Content" disabled>
-                                        <span class="checkmark"></span>
+                                    <label class="check-container check-disabled">
+                                        <input type="checkbox" checked="checked" name="home-content" disabled>
+                                        <span class="checkmark disabled"></span>
                                     </label>
                                     <div class="promo-info">Home Content
                                         <span class="promo-tip">What is home content? Description here</span>
                                     </div>
-
                                 </div>
 
                                 <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" checked="checked" name="Services" disabled>
-                                        <span class="checkmark"></span>
+                                    <label class="check-container check-disabled">
+                                        <input type="checkbox" checked="checked" name="services" disabled>
+                                        <span class="checkmark disabled"></span>
                                     </label>
                                     <div class="promo-info">Services/Products content
                                         <span class="promo-tip">Services Tooltip</span>
                                     </div>
-
                                 </div>
 
                                 <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" checked="checked" name="Location" disabled>
-                                        <span class="checkmark"></span>
+                                    <label class="check-container check-disabled">
+                                        <input type="checkbox" checked="checked" name="location" disabled>
+                                        <span class="checkmark disabled"></span>
                                     </label>
                                     <div class="promo-info">Location
                                         <span class="promo-tip">Location Tooltip</span>
@@ -167,9 +156,9 @@
                                 </div>
 
                                 <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" checked="checked" name="Contact" disabled>
-                                        <span class="checkmark"></span>
+                                    <label class="check-container check-disabled">
+                                        <input type="checkbox" checked="checked" name="contact" disabled>
+                                        <span class="checkmark disabled"></span>
                                     </label>
                                     <div class="promo-info">Contact
                                         <span class="promo-tip">Contact Tooltip</span>
@@ -177,9 +166,9 @@
                                 </div>
 
                                 <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" checked="checked" name="Mobile-Friendly" disabled>
-                                        <span class="checkmark"></span>
+                                    <label class="check-container check-disabled">
+                                        <input type="checkbox" checked="checked" name="mobile-friendly" disabled>
+                                        <span class="checkmark disabled"></span>
                                     </label>
                                     <div class="promo-info">Mobile Friendly
                                         <span class="promo-tip">Mobile Tooltip</span>
@@ -187,9 +176,9 @@
                                 </div>
 
                                 <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" checked="checked" name="Social Media" disabled>
-                                        <span class="checkmark"></span>
+                                    <label class="check-container check-disabled">
+                                        <input type="checkbox" checked="checked" name="social-media" disabled>
+                                        <span class="checkmark disabled"></span>
                                     </label>
                                     <div class="promo-info">Social Media
                                         <span class="promo-tip">Social Media Tooltip</span>
@@ -199,153 +188,144 @@
 
                             </div>
 
-                            <!-- PROMOTION COL 2 EXTRAS -->
+                            <div class="col-md-8">
 
-                            <div class="col-md-4 promotion-form">
-
-                                <h2>Extras </h2>
-
-                                <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" name="About">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <div class="promo-info">About</div>
+                                <div class="row">
+                                   
+                                    <div class="col-md-6 promotion-form">
+                                    
+                                        <h2>Extras </h2>
+                                    
+                                        <div class="label-container">
+                                            <label class="check-container">
+                                                <input type="checkbox" name="About">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="promo-info">About</div>
+                                        </div>
+                                    
+                                        <div class="label-container">
+                                            <label class="check-container">
+                                                <input type="checkbox" name="Blog">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="promo-info">Blog</div>
+                                        </div>
+                                    
+                                        <div class="label-container">
+                                            <label class="check-container">
+                                                <input type="checkbox" name="Calendar">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="promo-info">Calendar</div>
+                                        </div>
+                                    
+                                        <div class="label-container">
+                                            <label class="check-container">
+                                                <input type="checkbox" name="Booking">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="promo-info">Booking</div>
+                                        </div>
+                                    
+                                        <div class="label-container">
+                                            <label class="check-container">
+                                                <input type="checkbox" name="FAQ Page">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="promo-info">FAQ Page</div>
+                                        </div>
+                                    
+                                        <div class="label-container">
+                                            <label class="check-container">
+                                                <input type="checkbox" name="News Page">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="promo-info">News Page</div>
+                                        </div>
+                                    
+                                    
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                    <div class="col-md-6 promotion-form">
+                                    
+                                        <h2>Extras </h2>
+                                    
+                                        <div class="label-container">
+                                            <label class="check-container">
+                                                <input type="checkbox" name="Review">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="promo-info">Review</div>
+                                        </div>
+                                    
+                                        <div class="label-container">
+                                            <label class="check-container">
+                                                <input type="checkbox" name="Subscription">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="promo-info">Subscription</div>
+                                        </div>
+                                    
+                                        <div class="label-container">
+                                            <label class="check-container">
+                                                <input type="checkbox" name="Live Chat">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="promo-info">Live Chat</div>
+                                        </div>
+                                    
+                                        <div class="label-container">
+                                            <label class="check-container">
+                                                <input type="checkbox" name="Payment Online">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="promo-info">Payment Online</div>
+                                        </div>
+                                    
+                                        <div class="label-container">
+                                            <label class="check-container">
+                                                <input type="checkbox" name="Online Store">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <div class="promo-info">Online Store</div>
+                                        </div>
+                                    
+                                    
+                                    </div>
                                 </div>
-
-                                <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" name="Blog">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <div class="promo-info">Blog</div>
-                                </div>
-
-                                <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" name="Calendar">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <div class="promo-info">Calendar</div>
-                                </div>
-
-                                <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" name="Booking">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <div class="promo-info">Booking</div>
-                                </div>
-
-                                <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" name="FAQ Page">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <div class="promo-info">FAQ Page</div>
-                                </div>
-
-                                <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" name="News Page">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <div class="promo-info">News Page</div>
-                                </div>
-
-
+                                
                             </div>
 
 
-                            <!-- PROMOTION COL 3 EXTRAS -->
 
-
-                            <div class="col-md-4 promotion-form">
-
-                                <h2>Extras </h2>
-
-                                <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" name="Review">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <div class="promo-info">Review</div>
-                                </div>
-
-                                <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" name="Subscription">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <div class="promo-info">Subscription</div>
-                                </div>
-
-                                <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" name="Live Chat">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <div class="promo-info">Live Chat</div>
-                                </div>
-
-                                <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" name="Payment Online">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <div class="promo-info">Payment Online</div>
-                                </div>
-
-                                <div class="label-container">
-                                    <label class="check-container">
-                                        <input type="checkbox" name="Online Store">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <div class="promo-info">Online Store</div>
-                                </div>
-
-
-                            </div>
-
-
-                            <!--<div class="col-md-12 text-center">
-<div class="h-50"></div>    
-<button type="submit" class="btn btn-default btn-contact wow fadeInLeft">Get in Touch!</button>
-</div>-->
 
                         </div>
-
-                        <div class="row promotion-tab promotion-contact">
+                        <div class="row promo-section">
 
                             <div class="col-md-12">
 
-                                <h2>Additional details</h2>
-                                <h3>Let us know more about you!</h3>
-                                <div class="h-50"></div>
-                                <input placeholder="Name" name="name" oninput="this.className" class="form-control">
-                                <input placeholder="Email" name="email" oninput="this.className" class="form-control">
-                                <textarea name="message" class="form-control" placeholder="Additional Comments..."></textarea>
+                                <h2>Your details</h2>
+
+                                <input type="text" name="name-promo" class="form-control" placeholder="Your Name" />
+                                <input type="email" name="email-promo" class="form-control" placeholder="Your E-mail" />
+                                <input type="text" name="phone-promo" class="form-control" placeholder="Phone Number" />
+                                <textarea name="message-promo" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
 
                             </div>
 
                         </div>
-                        <div class="h-50"></div>
-                        <div class="promotion-submit">
-                            <div style="">
-                                <button type="button" id="prevBtn" onclick="nextPrev(-1)" class="btn btn-default btn-previous">Previous</button>
-                                <button type="button" id="nextBtn" onclick="nextPrev(1)" class="btn btn-default btn-contact">Next</button>
-                            </div>
-                        </div>
 
-                        <div style="text-align:center;margin-top:40px;">
-                            <span class="step"></span>
-                            <span class="step"></span>
-                        </div>
 
-                    </div>
-                    <!-- col 12 container end -->
 
-                </form>
+
+                        <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
+
+                    </form>
+                </div>
 
             </div>
 

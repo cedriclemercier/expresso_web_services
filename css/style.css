@@ -75,7 +75,7 @@ h4:before {
 
 /*
 .section a {
-    color:#425BB5;
+color:#425BB5;
 }
 */
 
@@ -546,12 +546,6 @@ line-height: 64px;
     position: relative;
 }
 
-@media only screen and (min-width:1280px) {
-    .promotion-form {
-        padding-left:80px;
-    }
-}
-
 .promotion-form i {
     margin-left: 10px;
     color:#9F9EA1;
@@ -594,12 +588,23 @@ line-height: 64px;
     user-select: none;
 }
 
+.check-container.check-disabled {
+    cursor: not-allowed;
+}
+
+ 
+
+
 .check-container:hover .checkmark {
     background-color: #ccc;
 }
 
 .check-container input:checked ~ .checkmark {
     background-color:#2D2A32;
+}
+
+.check-container input:checked ~ .checkmark.disabled {
+    background-color: #666469;
 }
 
 .checkmark:after {
@@ -663,6 +668,11 @@ line-height: 64px;
     border-color: transparent rgba(31, 31, 31, 0.9) transparent transparent;
 }
 
+#promo-form input, #promo-form textarea {
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 0;
+}
 
 
 
@@ -700,6 +710,10 @@ line-height: 64px;
     background-color: #4CAF50;
 }
 
+
+.promo-section {
+    padding: 30px 0;
+}
 
 
 
