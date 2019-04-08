@@ -176,6 +176,75 @@ $(document).ready(function () {
         });
 
     });
+    
+    
+    $(function () {
+        $('#promo-form').validate({
+            rules: {
+                name1: {
+                    required: true,
+                    minlength: 2
+                },
+                email1: {
+                    required: true
+                },
+                phone1: {
+                    required: false
+                },
+                message1: {
+                    required: true
+                }
+
+            },
+            messages: {
+                name: {
+                    required: "This field is required",
+                    minlength: "your name must consist of at least 2 characters"
+                },
+                email: {
+                    required: "This field is required"
+                },
+                message: {
+                    required: "This field is required"
+                }
+            },
+            submitHandler: function (form) {
+                $(form).ajaxSubmit({
+                    type: "POST",
+                    data: $(form).serialize(),
+                    url: "process.php",
+                    success: function () {
+                        
+                        $('#promo-form :input').attr('disabled', 'disabled');
+                        $('#promo-form').fadeTo("slow", 1, function () {
+                            $(this).find(':input').attr('disabled', 'disabled');
+                           /* $(this).find('label').css('cursor', 'default');
+                            $('#success').fadeIn();*/
+                        });
+                         $('#promo-form').fadeOut();
+                        $('.success-message').delay(1500).fadeIn();
+                        /*
+                        document.getElementById('contact-form').style.display = "none";
+                        
+                        $('#contact-form').addClass('hide');
+                        $('.success-message').addClass('show');
+                        */
+                    },
+                    error: function () {
+                        $('#promo-form').fadeTo("slow", 1, function () {
+                            $('#error').fadeIn();
+                        });
+                    }
+                    
+                    
+                });
+            }
+        });
+
+    });
+    
+    
+    
 });
 
 
