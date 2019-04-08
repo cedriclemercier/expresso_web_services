@@ -1327,6 +1327,11 @@ fieldset {
 
 .promo {
     padding: 50px 0;
+    background-color:#425BB5;
+}
+
+.promo h1, .promo h2 {
+    color: #fff;
 }
 
 .faticon i {
@@ -1581,6 +1586,29 @@ color: #DCDCDC;
     .portfolio_item {
         height:550px;
     }
+}
+
+
+
+.btn-white, .btn-white:focus, .btn-white:active, .btn-white:visited  {
+    color: #2D2A32;
+    border:2px solid #fff;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.btn-white {
+    -webkit-transition: all 0.5s;
+    -moz-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+
+.btn-white:hover {
+    background-color: transparent;
+    color: #fff;
 }
 
 
