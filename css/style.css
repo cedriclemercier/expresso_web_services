@@ -483,12 +483,14 @@ line-height: 64px;
 }
 
 .btn-previous {
-    -webkit-transition: all 0.5s;
-    -moz-transition:all 0.5s;
-    -o-transition:all 0.5s;
+    -webkit-transition: all 0.2s;
+    -moz-transition:all 0.2s;
+    -o-transition:all 0.2s;
 }
 
 .btn-previous:hover {
+    background-color: #000;
+    color:#fff;
 }
 
 @media only screen and (max-width:400px) {
@@ -1591,7 +1593,6 @@ color: #DCDCDC;
 
 
 .btn-white, .btn-white:focus, .btn-white:active, .btn-white:visited  {
-    color: #2D2A32;
     border:2px solid #fff;
     padding: 20px 50px;
     text-transform: uppercase;
@@ -1601,9 +1602,6 @@ color: #DCDCDC;
 }
 
 .btn-white {
-    -webkit-transition: all 0.5s;
-    -moz-transition:all 0.5s;
-    -o-transition:all 0.5s;
 }
 
 .btn-white:hover {
