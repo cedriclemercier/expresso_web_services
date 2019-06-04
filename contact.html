@@ -111,22 +111,21 @@
         <div class="section" id="contact">
             <div class="container">
                 <div class="col-md-12">
-                    <h4>05</h4>
                     <h1 class="size-50">Contact  Us</h1>
                     <div class="h-50"></div>
                 </div>
                 <div class="col-md-4" data-aos="fade-up">
 
                     <h3> Mobile Number</h3>
-                    <p>+61 417 148 730</p>
-                    <p>+61 478 542 884</p>
+                    <p><strong>Matthew:</strong> +61 417 148 730</p>
+                    <p><strong>Vijay:</strong> +61 478 542 884</p>
                     <h3>Email</h3>
                     <p>info@venko.com.au</p>
 
                     <h3>Social Network</h3>
 
                     <ul class="social">
-                        <li><a href="https://www.facebook.com/venkodeveloperl"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/venkodevelopers/"><i class="ion-social-facebook"></i></a></li>
                         <li><a href="#"><i class="ion-social-twitter"></i></a></li>
                         <li><a href="https://www.instagram.com/venko_developers/"><i class="ion-social-instagram"></i></a></li>
                     </ul>
@@ -150,11 +149,12 @@
 
 
                     <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate" data-netlify="true">
-                        <select name="Service Selected" class="form-control">
-                            <option value="web-development" selected>Select which service you inquire about...</option>
+                        <select name="service" class="form-control" required>
+                           Select which service you inquire about...
+                           <option value="" selected disabled hidden>Select which service you inquire about...</option>
                             <option value="web-development">Web Development</option>
-                            <option value="web-development">Mobile App Development</option>
-                            <option value="web-development">Design</option>
+                            <option value="mobile-app">Mobile App Development</option>
+                            <option value="design">Design</option>
                         </select>
                         <input type="text" name="name" class="form-control" placeholder="Your Name" />
                         <input type="email" name="email" class="form-control" placeholder="Your E-mail" />

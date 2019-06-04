@@ -278,6 +278,10 @@ header {
     }
 }
 
+.navbar-brand {
+    height: 90px;
+}
+
 .navbar-toggle {
     background-color: transparent;
     border: 2px solid #2D2A32;
@@ -310,7 +314,7 @@ nav ul {
     display: inline-block;
     padding-left: 0;
     list-style: none;
-    /*padding: 20px;*/
+    padding: 10px;
     margin-bottom: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -334,6 +338,10 @@ nav li a {
 
 nav ul li.active {
     text-decoration: underline;
+}
+
+nav ul li.active a {
+    color: #425BB5;
 }
 
 .bg-nav {
@@ -1099,6 +1107,45 @@ line-height: 64px;
     border-color: #D33E43
 }
 
+#promo-form input[type="text"].error,
+#promo-form input[type="password"].error,
+#promo-form input[type="date"].error,
+#promo-form input[type="datetime"].error,
+#promo-form input[type="datetime-local"].error,
+#promo-form input[type="month"].error,
+#promo-form input[type="week"].error,
+#promo-form input[type="email"].error,
+#promo-form input[type="number"].error,
+#promo-form input[type="search"].error,
+#promo-form input[type="tel"].error,
+#promo-form input[type="time"].error,
+#promo-form input[type="url"].error,
+#promo-form textarea.error {
+    border-color: #D33E43
+}
+
+#promo-info-form label {
+    display: block;
+    margin-bottom: .2em;
+    font-size: 13px;
+    line-height: 13px;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    color: #000;
+}
+
+
+#promo-form label.error {
+    margin-top: 10px;
+    margin-bottom: 1em;
+    font-size: 12px;
+    line-height: 12px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #D33E43;
+    margin-left: 10px;
+}
+
 textarea {
     resize: none;
 }
@@ -1414,9 +1461,9 @@ fieldset {
 }
 
 #mobile .bbox ul li {
-    list-style: none;
+    text-align: left;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 28px;
 }
 
 @media only screen and (max-width:1440px) {
