@@ -115,7 +115,7 @@ $(document).ready(function () {
     $(function () {
         $('#contact-form').validate({
             rules: {
-                 service1: {
+                 service: {
                     required: true
                 },
                 name: {
@@ -149,7 +149,8 @@ $(document).ready(function () {
                 },
                 message: {
                     required: "This field is required"
-                }
+                },
+                
             },
             submitHandler: function (form) {
                 $(form).ajaxSubmit({
