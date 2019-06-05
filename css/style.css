@@ -337,7 +337,18 @@ nav li a {
 }
 
 nav ul li.active {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    position: relative;
+}
+
+nav ul li.active::after {
+    content: '';
+    height: 4px;
+    width: 100%;
+    position:absolute;
+    background-color:#425BB5;
+    left:0;
+    bottom:-20px;
 }
 
 nav ul li.active a {
