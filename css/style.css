@@ -71,7 +71,7 @@ h4:before {
     .disply-table h4:before {
         display:none;
     }
-    
+
     .disply-table h4 {
         margin:0;
     }
@@ -606,7 +606,7 @@ line-height: 64px;
     cursor: not-allowed;
 }
 
- 
+
 
 
 .check-container:hover .checkmark {
@@ -645,10 +645,14 @@ line-height: 64px;
 
 .promo-info {
     font-weight: 700;
-    cursor: help;
+    /*cursor: help;*/
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    /*border-bottom: 1px dotted black;  If you want dots under the hoverable text */
+}
+
+i.promo-info {
+    cursor: help;
 }
 
 .promo-info .promo-tip {
@@ -657,7 +661,7 @@ line-height: 64px;
     background-color: rgba(31, 31, 31, 0.9);
     color: #fff;
     text-align: center;
-    padding: 15px 10px;
+    padding: 15px 15px;
     border-radius: 4px;
     font-weight: normal;
 
@@ -665,6 +669,13 @@ line-height: 64px;
     z-index: 1;
     top: -5px;
     left: 130%; 
+    
+    
+    /* To use if using the icon as a hover */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    /**/
 }
 
 .promo-info:hover .promo-tip {
