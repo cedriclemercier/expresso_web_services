@@ -282,6 +282,10 @@ header {
     height: 90px;
 }
 
+.navbar-brand img {
+    height:60px;
+}
+
 .navbar-toggle {
     background-color: transparent;
     border: 2px solid #2D2A32;
@@ -290,9 +294,13 @@ header {
 
 .navbar-toggle .icon-bar {
     display: block;
-    width: 22px;
+    width: 30px;
     height: 2px;
     border-radius: 1px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 5px;
 }
 
 .navbar-toggle .icon-bar {
@@ -348,7 +356,13 @@ nav ul li.active::after {
     position:absolute;
     background-color:#425BB5;
     left:0;
-    bottom:-20px;
+}
+
+@media only screen and (min-width:768px) {
+    nav ul li.active::after {
+        bottom:-20px;
+    }
+
 }
 
 nav ul li.active a {
@@ -680,8 +694,8 @@ i.promo-info {
     z-index: 1;
     top: -5px;
     left: 130%; 
-    
-    
+
+
     /* To use if using the icon as a hover */
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -1387,6 +1401,10 @@ fieldset {
     .collapse.in{
         display:block !important;
     }
+}
+
+.navbar-toggle {
+    padding: 15px 10px;
 }
 
 
