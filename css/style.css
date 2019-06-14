@@ -1469,6 +1469,21 @@ fieldset {
     color: #425BB5;
 }
 
+.extra-services img {
+    display:none;
+}
+
+@media only screen and (min-width:768px) {
+    .extra-services img {
+        display:block;
+    }
+    
+    .extra-services i {
+        display: none;
+    }
+}
+
+
 
 
 
