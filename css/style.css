@@ -586,7 +586,7 @@ line-height: 64px;
 }
 
 .promotion-form i {
-    margin-left: 10px;
+    margin-right: 10px;
     color:#9F9EA1;
     cursor: pointer;
 }
@@ -692,8 +692,8 @@ i.promo-info {
 
     position: absolute;
     z-index: 1;
-    top: -5px;
-    left: 130%; 
+    top: 30px;
+    left: 0%; 
 
 
     /* To use if using the icon as a hover */
@@ -710,12 +710,12 @@ i.promo-info {
 .promo-info .promo-tip::after {
     content: " ";
     position: absolute;
-    top: 40%;
-    right: 100%; /* To the left of the tooltip */
+    top: -2%;
+    left: 3%; 
     margin-top: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent rgba(31, 31, 31, 0.9) transparent transparent;
+    border-color: transparent transparent rgba(31, 31, 31, 0.9) transparent;
 }
 
 #promo-form input, #promo-form textarea {
